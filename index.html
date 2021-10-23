@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>* TETRIS *</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <h1>tetris</h1>
+  <div id="stage" class="wrapper-container">
+    <table>
+    </table>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="blocks.js"></script>
+    <script src="index.js"></script>
+
+  </div>
+</body>
+
+<span class="tetris-panel-container">
+  <p>Next:</p>
+  <canvas id="next" width="150px" height="150px" style="background-color:black;">
+  </canvas>
+  <p>LINES:
+    <span id="lines">0</span>
+  </p>
+  <p>
+    <span id="message"></span>
+  </p>
+  <div class="tetris-panel-container-padding"></div>
+  <table class="tetris-button-panel">
+    <tr>
+      <td></td>
+      <td id="tetris-rotate-button" class="tetris-button">↻</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td id="tetris-move-left-button" class="tetris-button">←</td>
+      <td id="tetris-fall-button" class="tetris-button">↓</td>
+      <td id="tetris-move-right-button" class="tetris-button">→</td>
+    </tr>
+    <tr>
+      <td id="tetris-pause-button" class="tetris-button">||</td>
+      <td></td>
+      <td id="tetris-start-button" class="tetris-button">▶</td>
+    </tr>
+  </table>
+</span>
+
+<script>
+  var tetris = new Tetris();
+  tetris.startGame();
+</script>
+
+
+
+</html>
