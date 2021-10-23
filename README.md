@@ -43,3 +43,8 @@ URL →  https://cioccolato12345.github.io/demo4/
 🐥次に落ちてくるブロックをNEXT画面に表示させるようにする
 
 -----------------------
+
+
+
+![image](https://user-images.githubusercontent.com/92945582/138570042-cec01902-341c-42ff-a6b2-5098c00477ac.png)
+
