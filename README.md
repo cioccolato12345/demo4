@@ -38,6 +38,8 @@ URL →  https://cioccolato12345.github.io/demo4/
 
 課題
 
+🐥高さそろえる
+
 🐥URL表示でてとりすがみえるようにする
 
 🐥次に落ちてくるブロックをNEXT画面に表示させるようにする
