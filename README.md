@@ -22,7 +22,7 @@ URL →  https://cioccolato12345.github.io/demo4/
 
 ←矢印  　 左
 
-→矢印     右
+→矢印　　　　右
 
 ↓矢印　   下
 
