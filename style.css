@@ -51,7 +51,7 @@
  .cls1 { background: #00FFFF; }  /*sky*/ 
  .cls2 { background: #8000ff; }  /*purple*/ 
  .cls3 { background: #FF00FF; }  /*pink*/ 
- .cls4 { background: #00F9A9; }  /*green*/ 
+ .cls4 { background: rgb(58, 249, 0); }  /*green*/ 
  .cls5 { background: #BEFF15; }  /*yellow*/ 
  .cls6 { background: rgba(231, 150, 43, 0.87); }  /*orange*/ 
  .cls7 { background: #FF0461; }  /*orange*/ 
